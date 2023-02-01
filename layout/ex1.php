@@ -1,4 +1,4 @@
-<?php $title = "Indivitual tasks 1"
+<?php $title = "Indivitual tasks 1";
 include "header.php" ?>
     <h3>Write a simple PHP script to print your information (Name and your groupid).</h3>
 <?php
