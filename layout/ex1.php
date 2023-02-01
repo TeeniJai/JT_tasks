@@ -1,22 +1,22 @@
 <?php $title = "Indivitual tasks 1";
 include "header.php" ?>
-    <h3>Write a simple PHP script to print your information (Name and your groupid).</h3>
+<h3>Write a simple PHP script to print your information (Name and your groupid).</h3>
 <?php
 echo "Jenina Tiainen <br>";
 echo "BBCAP22"
-?> 
+    ?>
 <h3>Write PHP code to display the following message.</h3>
 <?php
 echo "Hello world! My name is David"
-?>
+    ?>
 <h3>Write the PHP code in to display the current date.</h3>
 <?php
 echo date("d.m.Y");
-?>  
+?>
 <h3>3.4 variable in php</h3>
 <?php
 $title1 = "PHP is interesting";
-echo "<h1>". $title1. "</h1>";
+echo "<h1>" . $title1 . "</h1>";
 ?>
 
 <h3>3.5 Table & Variables</h3>
