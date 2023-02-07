@@ -22,3 +22,9 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png"></img>
     </footer>
 </body>
+
+<?php
+echo "Last time of file change: " . 
+date("l jS \of F Y h:i:s A", filemtime(__FILE__));
+
+?>
