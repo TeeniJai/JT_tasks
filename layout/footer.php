@@ -20,11 +20,11 @@
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png"></img>
       <img class="twitter"
         src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Twitter-logo.svg/2491px-Twitter-logo.svg.png"></img>
-    </footer>
-</body>
-
-<?php
+        <div class="justify-content-center">
+        <?php
 echo "Last time of file change: " . 
 date("l jS \of F Y h:i:s A", filemtime(__FILE__));
-
 ?>
+        </div>
+    </footer>
+</body>
