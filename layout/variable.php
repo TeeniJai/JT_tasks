@@ -6,12 +6,22 @@
     tag: Hello …., You are welcome to my site.
 </h2>
 <form action="action.php" method="post">
-
-First name: <input type="text" name="fname"><br>
-Last name: <input type="text" name="lname"><br>
-Birth date <input type="date" name="bdate"><br>
-Select your favourite color <input type="color" name="color"><br>
-<input type="submit" value="Submit">
-
+    <div class="row">
+        <div class="col">
+            <input type="text" name="fname" requierd placeholder="First Name" class="form-control">
+        </div>
+        <div class="col">
+            <input type="text" name="lname" required placeholder="Last Name" class="form-control">
+        </div>
+        <div class="row">
+            <div class="col">
+                <input type="date" name="bdate" required placeholder="Birthday" class="form-control"><br>
+            </div>
+            <div class="col">
+                <input type="color" name="color" requierd placeholder="Color" class="form-control"><br>
+            </div>
+            <input type="submit" value="Submit">
+        </div>
+    </div>
 </form>
 <?php include "footer.php" ?>
