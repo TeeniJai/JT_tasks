@@ -13,6 +13,7 @@
     echo $title
       ?>
   </title>
+  <script src="../JS/site.js"></script>
 </head>
 
 <body>

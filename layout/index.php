@@ -6,7 +6,11 @@
     modi.</p>
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, eos quidem suscipit beatae cumque eligendi iste esse
     laboriosam libero vero itaque eveniet consequatur quod aliquid obcaecati ipsam hic magnam. Magni.</p>
-
-
-
+<script>
+document.write("'allo this is scripted java");
+</script>
+<noscript>
+turn on script to see this >:(
+</noscript>
+<input type="button" onclick="hello()" value="Click me >:3"
 <?php include "footer.php" ?>
