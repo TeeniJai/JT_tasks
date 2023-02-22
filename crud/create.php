@@ -1,8 +1,8 @@
 <?php $title = "simple CRUD app";
 include "../layout/header.php" ?>
 
-<form method="post" action="">
-    <input type="text" name="fname" placeholder="First Name" required><br>
+<form method="post" action=""onsubmit="return crud()" name="form1">
+    <input type="text" name="fname" placeholder="First Name" required onblur="fname()"><br>
     <input type="text" name="lname" placeholder="Last Name" required><br>
     <input type="text" name="city" placeholder="City" required><br>
     <select name="groupid">
@@ -10,7 +10,6 @@ include "../layout/header.php" ?>
         <option value="BBCAP21"> BBCAP21</option>
         <option value="Others"> Others</option>
     </select><br><br>
-
 
     <input type="submit" value="Submit" name="submit">
 
@@ -34,8 +33,5 @@ if (isset($_POST["submit"])) {
     }
 
 }
-
-
-
 ?>
 <?php include "../layout/footer.php"; ?>
